@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>App Name: A Coding Project By CG1image</title>
+    <title>Race Car: A Coding Project By CG1image</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="/img/WhiteCG-01.svg" class=" d-inline-block align-text-top me-3"
-                    width="30" height="24">APP NAME</a>
+                    width="30" height="24">Race Car</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,7 +52,28 @@
     <!-- ==== Main Section ==== -->
     <main class="flex-shrink-0">
         <div class="container">
+            <div class="row mt-5">
+                <div class="col-6 border-end">
+                    <h2>Palindrome Check (aka. Race Car)</h2>
+                    <p class="bold">This program will check to see if your word, sentence or phrase
+                        is a palindrome, e.g., racecar.
+                    </p>
+                    <hr>
+                    <h3>Instructions</h3>
+                    <p>Enter your word sentence or phrase to see if it matches up to a palindrome!</p>
 
+                </div>
+                <div class="col-6">
+                    <label for="inputBox">Enter a word, sentence or phrase</label>
+                    <input type="text" id="inputBox">
+                    <button onclick="userInput()">Palindrome</button>
+                    <br>
+                    <p id="results" class="results mt-3 text-center d-sm-inline-flex"></p>
+                    <h6 id="sorry" class="sorry mt-4">Sorry, you didn't create a palindrome</h6>
+                    <h6 id="congrats" class="congrats mt-4">Congratulations! You created a palindrome</h6>
+                </div>
+                
+            </div>
         </div>
     </main>
     <!-- ==== Footer Section ==== -->

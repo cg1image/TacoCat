@@ -69,3 +69,18 @@ white-space: pre-wrap;
 word-break: break-all;
 word-wrap: break-word;
 }
+
+.sorry{
+    background-color: pink;
+  display: none;
+ 
+}
+
+.congrats{
+    display:none;
+}
+
+.results{
+    border-style: hidden;
+    display: none;
+}
